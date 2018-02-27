@@ -6,7 +6,10 @@ import contact from './Component/contact';
 class App extends Component {
     render() {
         return (
-            <contact />
+            <div>
+                <p>Nguyen Van Quang</p>
+                <contact />
+            </div>
         );
     }
 }
